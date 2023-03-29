@@ -77,12 +77,8 @@ WSGI_APPLICATION = 'votepls.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'votepls',
-        'USER': 'votepls',
-        'PASSWORD': 'ceparol',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
     }
 }
 
